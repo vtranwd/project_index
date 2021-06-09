@@ -1,14 +1,14 @@
 Goal of the project index is to prevent decision paralysis from having too many projects at once.
-This will be a productivity app that will help me organize my progress between all my projects.
+This will be simple a productivity app that will help me organize my progress between all my projects.
 
 MVP
-CREATE To-Do list
-READ To-Do list
-Update To-Do list
-DELETE item from To-Do list
-CRUD operations for whole lists and also individual items on each list
+- CREATE To-Do list
+- READ To-Do list
+- UPDATE To-Do list
+- DELETE item from To-Do list
+- CRUD operations for whole lists and also individual items on each list
 
-* ADD-ON FUNCTIONS
+ADD-ON FUNCTIONS
 - Add color picker to allow color assignments per list, like the sticky notes applet on early Windows 10 PCs.
 - Option to move lists up and down in queue
 - Checkbox function to assign priority to each list
