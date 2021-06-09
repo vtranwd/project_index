@@ -1,5 +1,5 @@
-Goal of the project index is to prevent decision paralysis from having too many projects at once.
-This will be simple a productivity app that will help me organize my progress between all my projects.
+Productivity App designed as a To-Do List with issue tracking and progress tracking.
+
 
 MVP
 - CREATE To-Do list
