@@ -6,13 +6,13 @@ MVP
 - READ To-Do list
 - UPDATE To-Do list
 - DELETE item from To-Do list
-- CRUD operations for whole lists and also individual items on each list
+- CRUD operations for whole lists and also for individual items on each list
 
 ADD-ON FUNCTIONS
 - Add color picker to allow color assignments per list, like the sticky notes applet on early Windows 10 PCs.
 - Option to move lists up and down in queue
-- Checkbox function to assign priority to each list
-- Checkbox function to assign priority to each list item
+- Dropdown selector to assign priority to each list
+- Dropdown selector to assign priority to each list item
 - Upload files as list items
 
 ADVANCED GOALS
