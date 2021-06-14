@@ -44,7 +44,7 @@ function deleteCheck(e) {
 	if (item.classList[0] === "delete_btn") {
 		const todo = item.parentElement;
 
-		// animation transition to make it fancy
+		// adding a fall animation transition to the delete function to make it fancy
 
 		todo.classList.add("fall")
 		todo.addEventListener('transitioned', function() {
@@ -55,5 +55,30 @@ function deleteCheck(e) {
 	if (item.classList[0] === "complete_btn") {
 		const todo = item.parentElement;
 		todo.classList.toggle("completedItem")
+	}
+}
+
+function filterTodo(e){
+	const todos = todoList.childNodes;
+	for(let i = 1; i<todos.length; i++){
+		switch(e.target.value){
+			case "all":
+			todos[i].style.display = "flex";
+			break;
+			case "completed":
+			if(todos[i].classList.contains('completedItem')){
+				todos[i].style.display = "flex";
+			} else {
+				todos[i].style.display = "none";
+			}
+			break;
+			case "incomplete":
+			if(!todos[i].classList.contains('completedItem')){
+				todos[i].style.display = "flex";
+			} else {
+				todos[i].style.display = "none";
+			}
+			break;
+		}
 	}
 }

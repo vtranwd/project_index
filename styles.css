@@ -116,13 +116,13 @@ select{
 .fa-check{
     pointer-events: none;
 }
-/* STYLING TASK THAT IS COMPLETED */
+/* STYLING TASK THAT IS COMPLETED with a simple size change animation */
 .completedItem{
     text-decoration: line-through;
     opacity: 0.5;
     transform: scale(0.96);
 }
-/* DELETING THE TASKS */
+/* DELETING THE TASKS with a "falling" animation */
 .fall{
     transform: translateY(4rem) scale(0.4) rotateZ(20deg);
     opacity: 0;
