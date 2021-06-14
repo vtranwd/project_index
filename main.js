@@ -36,3 +36,24 @@ function addTodo(event) {
 	todoInput.value = ""
 }
 
+// delete and check
+function deleteCheck(e) {
+	const item = e.target;
+
+	// delete item
+	if (item.classList[0] === "delete_btn") {
+		const todo = item.parentElement;
+
+		// animation transition to make it fancy
+
+		todo.classList.add("fall")
+		todo.addEventListener('transitioned', function() {
+			todo.remove()
+		})
+	}
+	// complete item
+	if (item.classList[0] === "complete_btn") {
+		const todo = item.parentElement;
+		todo.classList.toggle("completedItem")
+	}
+}
